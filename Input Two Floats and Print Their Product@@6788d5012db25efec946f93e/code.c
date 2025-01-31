@@ -6,10 +6,10 @@ char* welcome() {
 
 int main() {
     float a,b;
-    scanf("%2f",&a);
-    scanf("%2f",&b);
+    scanf("%2lf",&a);
+    scanf("%2lf",&b);
     float c;
     c = a*b;
-    printf("Product: %2f",c);
+    printf("Product: %2lf",c);
     return 0;
 }
