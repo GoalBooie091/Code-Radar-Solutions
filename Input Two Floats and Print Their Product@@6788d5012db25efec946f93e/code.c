@@ -6,8 +6,8 @@ char* welcome() {
 
 int main() {
     float a,b;
-    scanf("%f",&a);
-    scanf("%f",&b);
+    scanf("%2f",&a);
+    scanf("%2f",&b);
     float c;
     c = a*b;
     printf("Product: %2f",c);
