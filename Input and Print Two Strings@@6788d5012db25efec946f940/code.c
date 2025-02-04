@@ -5,10 +5,22 @@ char* welcome() {
 }
 
 int main() {
-    char text[] = 'Hello';
-    scanf("%s",&text);
-    char goal[] = 'World';
-    scanf("%s",&World);
-    printf("You entered: %s and %s",text,goal);
+    char str[20];
+
+    printf("Enter a string: ");
+    scanf("%s", str);
+
+    if (strcmp(str, "hello") == 0) {
+        printf("You entered: %s\n", str);
+        printf("Output: hello world\n");
+    } else if (strcmp(str, "world") == 0) {
+        printf("You entered: %s\n", str);
+        printf("Output: hello world\n");
+    } else {
+        printf("Invalid input\n");
+    }
+
+    return 0;
+}
     return 0;
 }
