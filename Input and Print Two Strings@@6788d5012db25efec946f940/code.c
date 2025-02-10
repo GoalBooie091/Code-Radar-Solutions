@@ -5,20 +5,9 @@ char* welcome() {
 }
 
 int main() {
-    char str[20];
-
-    printf("Enter a string: ");
-    scanf("%s", str);
-
-    if (strcmp(str, "hello") == 0) {
-        printf("You entered: %s\n", str);
-        printf("Output: hello world\n");
-    } else if (strcmp(str, "world") == 0) {
-        printf("You entered: %s\n", str);
-        printf("Output: hello world\n");
-    } else {
-        printf("Invalid input\n");
-    }
+    char str1[100],str2[100];
+    scanf("%s %s",&str1,str2);
+    printf("You entered: %s and %s",str1,str2);
 
     return 0;
 }
