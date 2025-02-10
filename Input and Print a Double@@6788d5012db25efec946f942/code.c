@@ -5,8 +5,9 @@ char* welcome() {
 }
 
 int main() {
-    float x;
-    scanf("%2f",&x)
-    printf("You entered: %2f",x);
+    double number; 
+    printf("Enter a double precision floating point number: ");
+    scanf("%lf", &number);
+    printf("You entered: %lf\n", number);
     return 0;
 }
