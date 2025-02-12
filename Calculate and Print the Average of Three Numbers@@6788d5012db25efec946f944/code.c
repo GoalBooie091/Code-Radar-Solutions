@@ -5,9 +5,10 @@ char* welcome() {
 }
 
 int main() {
-    int a,b,c;
-    scanf("%d%d%d",&a,&b,&c);
-    int average = (a+b+c)/3.0;
-    printf("Average: %.2f",average);
+    int num1, num2, num3;
+    float average; 
+    scanf("%d %d %d", &num1, &num2, &num3);
+    average = (num1 + num2 + num3) / 3.0; 
+    printf("The average of %d, %d, and %d is: %.2f\n", num1, num2, num3, average);
     return 0;
 }
