@@ -6,7 +6,7 @@ int main(){
     if(x/2){
         printf("Even");
     }
-    else{
+    if else(x/2!=0){
         printf("Odd");
     }
     return 0;
